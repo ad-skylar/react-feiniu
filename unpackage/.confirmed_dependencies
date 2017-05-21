@@ -1,0 +1,141 @@
+{
+	"index.html": {
+		"resources": [
+			"js/browser.min.js",
+			"js/react-dom.min.js",
+			"css/mui.css",
+			"js/zepto.js",
+			"js/swiper-3.3.1.jquery.min.js",
+			"js/countDown.js",
+			"js/rem.js",
+			"css/index.css",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"js/iscroll.js",
+			"js/react.min.js",
+			"js/index.js",
+			"css/reset.css",
+			"css/swiper-3.3.1.min.css",
+			"iconfont/iconfont.css",
+			"data/product_t.json",
+			"fonts/mui.ttf",
+			"data/product.json",
+			"iconfont/iconfont.woff",
+			"html/T-index.html",
+			"html/login.html"
+		],
+		"refer": [
+			"html/T-index.html",
+			"html/login.html"
+		]
+	},
+	"html/detail.html": {
+		"resources": [
+			"js/browser.min.js",
+			"fonts/mui.ttf",
+			"js/detail.js",
+			"js/react-dom.min.js",
+			"css/mui.css",
+			"js/zepto.js",
+			"js/swiper-3.3.1.jquery.min.js",
+			"js/rem.js",
+			"data/product.json",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"js/iscroll.js",
+			"js/react.min.js",
+			"iconfont/iconfont.woff",
+			"css/detail.css",
+			"css/reset.css",
+			"css/swiper-3.3.1.min.css",
+			"iconfont/iconfont.css",
+			"data/product_t.json"
+		],
+		"refer": []
+	},
+	"html/i_item.html": {
+		"resources": [
+			"data/class.json",
+			"js/browser.min.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"js/react.min.js",
+			"css/mui.min.css",
+			"css/i-header.css",
+			"js/item.js",
+			"js/react-dom.min.js",
+			"js/zepto.js",
+			"js/rem.js",
+			"css/reset.css"
+		],
+		"refer": []
+	},
+	"html/shopping.html": {
+		"resources": [
+			"js/browser.min.js",
+			"css/animate.min.css",
+			"js/react-dom.min.js",
+			"js/swiper-3.3.1.jquery.min.js",
+			"js/zepto.js",
+			"js/rem.js",
+			"data/product.json",
+			"js/shopping.js",
+			"css/mui.min.css",
+			"js/iscroll.js",
+			"js/react.min.js",
+			"js/touch.min.js",
+			"css/reset.css",
+			"css/swiper-3.3.1.min.css"
+		],
+		"refer": []
+	},
+	"html/my.html": {
+		"resources": [
+			"img/my_05.png",
+			"js/browser.min.js",
+			"img/my_03.png",
+			"fonts/mui.ttf",
+			"img/my_04.png",
+			"fontss/iconfont.woff",
+			"img/my_01.jpg",
+			"css/style.css",
+			"js/react-dom.min.js",
+			"js/zepto.js",
+			"js/rem.js",
+			"font/iconfont.js",
+			"img/my_06.png",
+			"fontss/iconfont.css",
+			"img/my_07.png",
+			"font/iconfont.css",
+			"img/my_02.jpg",
+			"font/iconfont.woff",
+			"js/my.js",
+			"css/mui.min.css",
+			"js/react.min.js"
+		]
+	},
+	"html/T-index.html": {
+		"resources": [
+			"js/t-index.js",
+			"icons/demo.css",
+			"img/02.png",
+			"data/product_t.json",
+			"img/01.png",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"html/login.html": {
+		"resources": [
+			"js/app.js",
+			"css/style.css",
+			"js/mui.enterfocus.js"
+		],
+		"refer": [
+			"index.html",
+			"html/reg.html"
+		]
+	}
+}

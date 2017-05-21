@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/animate.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+		html,
+		body {
+			height: 100%;
+			width: 100%;
+			font-family: "微软雅黑";
+		}
+		#out {
+			/*width: 6.40rem;*/
+			/*background: #f8f3f7;*/
+			margin: 0 auto;
+			overflow: auto;
+			height: 100%;
+			position: relative;
+		}
+		.g_back{
+			position: absolute;
+			left: 0;
+			top: 0;
+			display: block;
+			width: 0.9rem;
+			height: 0.9rem;
+			
+		}
+		.g_back:after{
+			content: '';
+			position: absolute;
+			left: 40%;
+			top: 50%;
+			margin-top: -0.2rem;
+			height: 0.4rem;
+			width: 0.4rem;
+			border-bottom: 0.05rem solid #333;
+			border-left: 0.05rem solid #333;
+			transform: rotate(45deg);
+		}
+		.g_cart{
+			margin-bottom: 0.2rem;
+		}
+		.g_shop{
+			margin-bottom: 0;
+			padding-bottom: 0;
+			position: relative;
+			padding: 0.3rem 0.3rem 1rem;
+			background: #fff;
+			overflow: hidden;
+		}
+		.g_main{
+			padding-bottom: 0.2rem;
+			margin-bottom: 0;
+			position: relative;
+			display: flex;
+			
+		}
+		.g_radio{
+			display: block;
+			width: 1rem;
+			height: 0.5rem;
+			margin-left: -0.5rem;
+			top: 0.8rem;
+			padding-left: 0.3rem;
+			position: relative;
+			
+		}
+		.g_ipt1{
+			right: 0.2rem;
+			position: absolute;
+			width: 0.5rem;
+			height: 0.5rem;
+			margin: auto;
+		}
+		.g_img{
+			padding-top: 0.3rem;
+		}
+		.g_s_img{
+			width: 1.8rem;
+			height: 1.8rem;
+			margin-right: 0.3rem;
+		}
+		.g_shop_img{
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: relative;
+			
+		}
+		.g_abc{
+			padding-top: 0.3rem;
+		}
+		.g_abc1{
+			display: flex;
+			height: 1.4rem;
+			
+		}
+		.g_h4{
+			flex: 1;
+			padding-right: 0.25rem;
+			font-weight: 100;
+			font-size: 0.3rem;
+			overflow: hidden;
+			position: relative;
+		}
+		.g_div1{
+			height: initial;
+			display: flex;
+			max-width: 90%;
+		}
+		.g_p{
+			flex: 1;
+			overflow: hidden;
+			display: -webkit-box;
+			width: 100%;
+			line-height: 0.34rem;
+			font-size: 0.3rem;
+			text-overflow: ellipsis;
+		}
+		.g_i2{
+			position: absolute;
+			right: 0;
+			top: 0;
+			color: #999;
+			font-size: 0.4rem;
+			width: 0.3rem;
+
+			
+		}
+		.g_abc2{
+			width: 100%;
+			display: flex;
+		}
+		.g_abc2_price{
+			flex: 1;
+		}
+		.g_abc2_price_p{
+			padding-right: 0.2rem;
+			display: inline-block;
+			line-height: 0.6rem;
+			color: #d7063b;
+			font-size: 0.3rem;
+			clear: both;
+			position: relative;
+		}
+		.g_abc2_price_span{
+			font-size: 0.36rem;
+			color: #c70034;
+		}
+		.g_abc2_price_num{
+			width: 1.8rem;
+			display: flex;
+			overflow: hidden;
+			border: 1px solid #d5d5d5;
+			border-radius: 0.04rem;
+			align-items: center;
+		}
+		.g_abc2_price_jian{
+			width: 0.6rem;
+			height: 0.6rem;
+			border-right: 1px solid #d5d5d5;
+			font-size: 0.36rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.g_abc2_price_jia{
+			width: 0.6rem;
+			height: 0.6rem;
+			border-right: 1px solid #d5d5d5;
+			font-size: 0.36rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.g_abc2_price_shu{
+			display: block;
+			margin: 0 0.06rem;
+			text-align: center;
+			border: none;
+			flex: 1;
+			width: 0.6rem;
+			font-size: 0.3rem;
+			
+		}
+		</style>
+	</head>
+	<body>
+		<div id="out">
+			
+		</div>
+	</body>
+	<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/swiper-3.3.1.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/touch.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/zepto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/react.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/react-dom.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/browser.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/babel" src="../js/shopping.js">
+			
+		</script>
+</html>

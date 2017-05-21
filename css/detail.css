@@ -1,0 +1,28 @@
+#swiper2 img{
+		width: 100%;
+		height: 100%;
+	}
+#swiper2 .swiper-slide{height: 100%;}
+#intro p{
+	font-size: 0.4rem;line-height: 0.6rem;color:#000;width: 8rem;
+    padding: 0 0.42rem 0 0.24rem;margin-left: 0.3rem;
+}
+#intro .d_price{
+	font-size: 0.4rem;
+    margin-right: 0.2rem;
+    color: #d6253b;
+    }
+#addCar{
+	cursor: pointer;
+    padding: 0 0.5rem;
+    height: 1.4rem;
+    color: #fff;
+    border: none;
+    background: #d7063b;
+    width: 3.5rem;
+    float: right;
+    position: relative;
+    z-index: 999;
+    font-size: 0.46rem;
+    line-height: 1.4rem;
+}

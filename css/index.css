@@ -1,0 +1,138 @@
+.fl{float:left}
+.fr{float:right}
+.swiper-slide img{
+	width: 100%;height: 100%;
+}
+.nine img{
+	height: 0.6rem;
+	width: 0.6rem;
+}
+
+.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+	border:none
+}
+.swiper-container3 img{
+	height: 1.5rem;
+	width: 1.5rem;
+	background: #fff;
+	margin-left: 0.3rem;
+}
+.swiper-container3{background: #fff;}
+.price{color:red;font-weight: 500;margin-bottom: 0.02rem;font-size: 0.30rem;}
+.ms_time span{
+	height: .4rem;
+    padding: 0 .04rem;
+    color: #666;
+    font-size: .28rem;
+    line-height: .4rem;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+    position: relative;
+}
+.ms_time span:after{
+	position: absolute;
+    top: -0.04rem;
+    right: -0.04rem;
+    color: #666;
+    line-height: .34rem;
+    width: .1rem;
+    content: ':';
+}
+.ms_time span:last-of-type:after{
+	 content: '';
+}
+.skill_arro{margin-left: 1.3rem;}
+.skill_arro img{width: 0.31rem;height: 0.29rem;margin-top: 0.01rem;margin-left: 0.2rem;}
+.speci_img:first-of-type img{
+	width: 3rem;
+	height: 3.57rem;
+}
+.speci_img img{
+	width: 3.1rem;
+}
+.speci_img{float: left;}
+.line{width: .6rem;
+    border-top: 1px solid #d5d5d5;
+    vertical-align: super;
+    opacity: .5;
+    }
+.s_left{
+	height: 0.56rem;
+	text-align: center;
+	line-height: 0.56rem;
+	position: relative;
+	background: none;
+}
+.s_left p{
+	font-size: .30rem;
+    font-weight: 700;
+}
+.line1{
+	position: absolute;
+	top: 50%;
+	left: 27%;
+}
+.line2{
+	right: 27%;
+	top: 50%;
+	position: absolute;
+}
+#special{
+	background: #fff;
+	height: 4.8rem;
+}
+#swiper4{ width: 100%;}
+.h_list{
+    float: left;
+    width: 50%;
+    background: #fff;
+    box-sizing: border-box;
+    margin-bottom: .04rem;
+    padding-right: .02rem;
+    height: 4.87rem;
+}
+.h_list img{
+	width: 100%;
+    overflow: hidden;
+}
+.car i{
+	color: #d7063b;
+	
+}
+.car{
+	font-size: .36rem;
+    float: right;
+    color: #d7063b;
+    width: .5rem;
+    height: .5rem;
+    line-height: .5rem;
+    border-radius: 50%;
+    background: #ffefef;
+    position: relative;
+    text-align: center;
+    border: 1px solid #d7063b
+}
+.p2{ 
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #666;
+    line-height: .35rem;
+    font-size: .26rem;
+    height: .7rem;
+    padding: 0 .18rem;
+    margin-bottom: .2rem;
+}
+.h_price{
+	    font-size: .34rem;
+    color: #d7063b;
+}
+.h_text{
+	padding: 0 0.3rem;
+}
+#h_list{
+	height: auto;
+	overflow: hidden;
+	}
